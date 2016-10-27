@@ -1,0 +1,20 @@
+
+	/*
+	This is my first CSS File
+	*/
+
+	.highlight {
+		background-color: #F7CAC9;
+	}
+	
+	#gargamel {
+		border-style: dashed;
+	    border-width: 3px;
+	    border-left-width: 3px;
+	    border-right-width: 3px;
+	    border-color: #304031;
+	}
+	
+	h1 {
+    color: #A32A38;
+	}

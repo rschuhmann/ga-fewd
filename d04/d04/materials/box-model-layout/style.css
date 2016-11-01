@@ -1,0 +1,45 @@
+/*
+CSS Style Sheet for box model project d04
+*/
+
+.graybox {
+	background-color: #DBD7D9;
+    height: 450px;
+  	width: 1000px;
+  	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding: 10px;
+}
+.blackbox {
+	background-color: black;
+	width:1000px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.redbox {
+	background-color: red;
+	height: 100px;
+	width:1000px;
+	margin-left: 10px
+	margin-right: 10px;
+	
+}
+#firstred {
+	color: blue;
+}
+
+#secondred {
+	color: green;
+}
+
+#thirdred {
+	color: yellow;
+}
+
+h1 {
+	color: white;
+	text-align: center
+}

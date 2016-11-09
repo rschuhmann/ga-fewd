@@ -1,5 +1,5 @@
 .container {
-	width: 500px;
+	width: 700px;
 	color: #444444;
 	font-family: "Lato";
 	line-height: 1.5
@@ -46,7 +46,10 @@ a:hover {
 
 .top-nav a {
 	color: #dddddd;
-	padding: 5px;
+	margin-right: 10px;
+	font-size: 18px;
+	text-decoration: none;
+	border-bottom: solid 2px #dddddd;
 }
 
 .top-nav a:hover {
@@ -64,26 +67,25 @@ a:hover {
 .continues {
 	text-align: right;
 	text-decoration: bold;
+	font-weight: bold;
 }
-
-.continues a {
-	text-decoration: none;
-}
-
 img {
 	width: 100%;
 }
 
 .bottom-nav {
-	width: 450px;
+	width: 520px;
 	padding: 12px;
-	font-size: 12px;
+	font-size: 14px;
+	text-decoration: none;
 }
 
 .bottom-nav a {
 	padding: 4px;
+	text-decoration: none;
 }
 
 .copyright {
-	#bbbbbb
+	color: #bbbbbb;
+	margin-left: 6px;
 }

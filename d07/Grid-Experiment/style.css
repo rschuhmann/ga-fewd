@@ -1,0 +1,9 @@
+.grid {
+	
+}
+
+.box {
+	background-color: grey;
+	border: 1px solid black;
+	height: 100px;
+}

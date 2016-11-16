@@ -1,0 +1,131 @@
+/*
+// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+*/
+
+. {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	width: 100%;
+}
+
+header {
+	background-color: black;
+	color: yellow;
+	font-family: "Merriweather", serif;
+	border-bottom: solid 4px yellow;
+	height: 60px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+	font-style: bold;
+	margin-top: 0px;
+}
+
+#container {
+	max-width: 900px;
+	margin: 0px auto;
+	background-image: url('../img/coworking.jpg');
+
+}
+
+.header-title {
+	margin-left: 20px; 
+	padding: 10px;
+	font-size: 28px;
+}
+
+.header-nav {
+	font-family: "Source Sans Pro", sans-serif;
+	text-align: right;
+	padding: 16px;
+	margin-right: 14px;
+}
+
+.nav-links {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.tagline {
+	background-color: #C6C6C6;
+	text-align: center;
+	height: 60px;
+	font-family: "Merriweather", serif;
+	font-style: italic;
+	font-size: 22px;
+	padding: 14px;
+}
+
+#taste {
+	color: #808080;
+	text-decoration: line-through;
+}
+
+#are {
+	border-bottom: solid 4px yellow;
+}
+
+.background-image {
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 30px 30px 30px 0px;
+	background-size: 100%;
+}
+
+.actions {
+	background-color: #ededed;
+	padding: 30px 30px 30px 30px;
+	box-shadow:  0px 0px 1px 1px rgba(136, 136, 136, 0.7);
+}
+
+.meet-your-match {
+	opacity: 0.9;
+	width: 360px;
+}
+
+.buttons-links {
+	color: black;
+	font-style: bold;
+}
+
+.buttons-gray {
+	background-color:#C6C6C6;
+	font-family: "Oswald", sans-serif;
+	font-style: bold;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	box-shadow: 3px 3px 5px #888888;
+	border-radius: 6px; 
+}
+
+.buttons-yellow {
+	background-color: yellow;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Oswald", sans-serif;
+	font-style: bold;
+	padding: 4px 4px 4px 4px;
+	box-shadow: 3px 3px 5px #888888;
+	border-radius: 6px; 
+}
+
+footer {
+	background-color: black;
+	color: white;
+	font-family: "Source Sans Pro", sans-serif;
+	height: 60px;
+	width: 100%;
+	padding: 20px;
+}

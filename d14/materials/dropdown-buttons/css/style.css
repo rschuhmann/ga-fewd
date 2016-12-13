@@ -1,0 +1,40 @@
+
+div.dropdown-menu {
+	padding: 10px;
+	display: inline-block;
+}
+
+div.combobox {
+	width: 70px;
+	height: 30px;
+	padding: 5px;
+	border: 2px solid #B6BDBF;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+div.dropdown {
+	width: 80px;
+	height: 60px;
+	border: 2px solid #B6BDBF;
+	border-radius: 10px;
+	box-shadow: 0px 2px 2px #888888;
+	margin-top: 2px;
+	display: none;
+	position: absolute;
+}
+
+div.dropdown-item {
+	padding: 4px;
+	margin-top: 4px;
+}
+
+div.dropdown-item:hover {
+	background-color: #B6BDBF; 
+}
+
+span.triangle {
+	font-size: 10px;
+}

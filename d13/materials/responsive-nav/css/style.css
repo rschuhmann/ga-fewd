@@ -1,0 +1,57 @@
+header {
+	background-color: black;
+}
+
+header h1 {
+	padding-left: 20px;
+	color: white;
+	display: inline-block;
+	margin-right: 4px;
+}
+
+header nav {
+	text-align: right;
+	padding: 1.9em 0;
+	color: white;
+}
+
+header nav a {
+	color: white;
+	padding: 0 5px;
+}
+
+.burger-location {
+	position: relative;
+}
+
+.burger span {
+	background-color: white;
+	height: 3px;
+	width: 20px;
+	display: block;
+	margin-bottom: 3px;
+}
+
+.burger {
+	position: absolute;
+	right: 5px;
+	top: 30px;
+	display: none;
+}
+
+@media (max-width: 767px) {
+	header nav a {
+		display: block;
+	}
+	header nav {
+		text-align: center;
+		display: none;
+	}
+
+	header nav.open {
+		display: inherit;
+	}
+	.burger {
+		display: inline-block;
+	}  
+}
